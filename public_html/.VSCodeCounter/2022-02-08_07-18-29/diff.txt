@@ -1,0 +1,114 @@
+Date : 2022-02-08 07:18:29
+Directory : c:\xampp\htdocs\public_html\API
+Total : 69 files,  -47098 codes, -5093 comments, -8256 blanks, all -60447 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| Ruby       |          1 |         -8 |          0 |         -2 |        -10 |
+| PHP        |         10 |       -336 |         -6 |       -174 |       -516 |
+| Less       |         16 |     -1,993 |        -50 |        -75 |     -2,118 |
+| SCSS       |         16 |     -2,013 |        -54 |        -77 |     -2,144 |
+| XML        |          3 |     -2,738 |          0 |         -3 |     -2,741 |
+| CSS        |          8 |     -8,332 |       -412 |     -1,094 |     -9,838 |
+| JavaScript |         15 |    -31,678 |     -4,571 |     -6,831 |    -43,080 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                   |         69 |    -47,098 |     -5,093 |     -8,256 |    -60,447 |
+| ..                                                                                  |         67 |    -47,300 |     -5,113 |     -8,320 |    -60,733 |
+| ..\Portal                                                                           |         67 |    -47,300 |     -5,113 |     -8,320 |    -60,733 |
+| ..\Portal\css                                                                       |          3 |     -3,820 |       -238 |       -587 |     -4,645 |
+| ..\Portal\fontawesome                                                               |         30 |     -8,514 |        -98 |        -98 |     -8,710 |
+| ..\Portal\fontawesome\css                                                           |          1 |     -2,327 |        -10 |         -1 |     -2,338 |
+| ..\Portal\fontawesome\fonts                                                         |          1 |     -2,671 |          0 |         -1 |     -2,672 |
+| ..\Portal\fontawesome\less                                                          |         14 |     -1,758 |        -44 |        -48 |     -1,850 |
+| ..\Portal\fontawesome\scss                                                          |         14 |     -1,758 |        -44 |        -48 |     -1,850 |
+| ..\Portal\js                                                                        |         11 |    -29,616 |     -4,429 |     -5,973 |    -40,018 |
+| ..\Portal\rs-plugin                                                                 |          5 |     -2,011 |       -237 |       -491 |     -2,739 |
+| ..\Portal\rs-plugin\css                                                             |          2 |     -1,916 |       -158 |       -460 |     -2,534 |
+| ..\Portal\rs-plugin\font                                                            |          1 |        -54 |          0 |          0 |        -54 |
+| ..\Portal\rs-plugin\js                                                              |          2 |        -41 |        -79 |        -31 |       -151 |
+| ..\Portal\slick                                                                     |         10 |     -2,801 |        -85 |       -933 |     -3,819 |
+| ..\Portal\slick\fonts                                                               |          1 |        -13 |          0 |         -2 |        -15 |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                            | language   | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\xampp\htdocs\public_html\API\config.php                                          | PHP        |         10 |          2 |         10 |         22 |
+| c:\xampp\htdocs\public_html\API\index.php                                           | PHP        |        192 |         18 |         54 |        264 |
+| c:\xampp\htdocs\public_html\Portal\ajex-events.php                                  | PHP        |        -45 |          0 |        -18 |        -63 |
+| c:\xampp\htdocs\public_html\Portal\chat_bot.php                                     | PHP        |       -210 |        -18 |        -81 |       -309 |
+| c:\xampp\htdocs\public_html\Portal\config.php                                       | PHP        |        -53 |         -6 |        -34 |        -93 |
+| c:\xampp\htdocs\public_html\Portal\css\jquery.dataTables.min.css                    | CSS        |       -349 |       -123 |        -66 |       -538 |
+| c:\xampp\htdocs\public_html\Portal\css\jquery.timepicker.css                        | CSS        |        -61 |          0 |        -12 |        -73 |
+| c:\xampp\htdocs\public_html\Portal\css\style.css                                    | CSS        |     -3,410 |       -115 |       -509 |     -4,034 |
+| c:\xampp\htdocs\public_html\Portal\dashboard.php                                    | PHP        |        -37 |         -1 |        -12 |        -50 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\css\font-awesome.css                 | CSS        |     -2,327 |        -10 |         -1 |     -2,338 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\fonts\fontawesome-webfont.svg        | XML        |     -2,671 |          0 |         -1 |     -2,672 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\less\animated.less                   | Less       |        -28 |         -2 |         -5 |        -35 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\less\bordered-pulled.less            | Less       |        -17 |         -3 |         -6 |        -26 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\less\core.less                       | Less       |         -8 |         -2 |         -3 |        -13 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\less\fixed-width.less                | Less       |         -4 |         -2 |         -1 |         -7 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\less\font-awesome.less               | Less       |        -13 |         -4 |         -2 |        -19 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\less\icons.less                      | Less       |       -786 |         -2 |         -2 |       -790 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\less\larger.less                     | Less       |         -9 |         -3 |         -2 |        -14 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\less\list.less                       | Less       |        -16 |         -2 |         -2 |        -20 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\less\mixins.less                     | Less       |        -41 |        -10 |        -10 |        -61 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\less\path.less                       | Less       |        -11 |         -3 |         -2 |        -16 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\less\rotated-flipped.less            | Less       |        -12 |         -4 |         -5 |        -21 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\less\screen-reader.less              | Less       |         -2 |         -2 |         -2 |         -6 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\less\stacked.less                    | Less       |        -17 |         -2 |         -2 |        -21 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\less\variables.less                  | Less       |       -794 |         -3 |         -4 |       -801 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\scss\_animated.scss                  | SCSS       |        -28 |         -2 |         -5 |        -35 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\scss\_bordered-pulled.scss           | SCSS       |        -17 |         -3 |         -6 |        -26 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\scss\_core.scss                      | SCSS       |         -8 |         -2 |         -3 |        -13 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\scss\_fixed-width.scss               | SCSS       |         -4 |         -2 |         -1 |         -7 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\scss\_icons.scss                     | SCSS       |       -786 |         -2 |         -2 |       -790 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\scss\_larger.scss                    | SCSS       |         -9 |         -3 |         -2 |        -14 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\scss\_list.scss                      | SCSS       |        -16 |         -2 |         -2 |        -20 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\scss\_mixins.scss                    | SCSS       |        -41 |        -10 |        -10 |        -61 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\scss\_path.scss                      | SCSS       |        -11 |         -3 |         -2 |        -16 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\scss\_rotated-flipped.scss           | SCSS       |        -12 |         -4 |         -5 |        -21 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\scss\_screen-reader.scss             | SCSS       |         -2 |         -2 |         -2 |         -6 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\scss\_stacked.scss                   | SCSS       |        -17 |         -2 |         -2 |        -21 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\scss\_variables.scss                 | SCSS       |       -794 |         -3 |         -4 |       -801 |
+| c:\xampp\htdocs\public_html\Portal\fontawesome\scss\font-awesome.scss               | SCSS       |        -13 |         -4 |         -2 |        -19 |
+| c:\xampp\htdocs\public_html\Portal\footer.php                                       | PHP        |        -41 |          0 |        -31 |        -72 |
+| c:\xampp\htdocs\public_html\Portal\header.php                                       | PHP        |        -95 |          0 |        -29 |       -124 |
+| c:\xampp\htdocs\public_html\Portal\index.php                                        | PHP        |        -45 |         -1 |        -23 |        -69 |
+| c:\xampp\htdocs\public_html\Portal\js\custom.js                                     | JavaScript |       -961 |       -186 |       -215 |     -1,362 |
+| c:\xampp\htdocs\public_html\Portal\js\inputmask.numeric.extensions.js               | JavaScript |       -328 |         -7 |         -4 |       -339 |
+| c:\xampp\htdocs\public_html\Portal\js\jquery-1.12.4.js                              | JavaScript |     -7,078 |     -1,857 |     -2,074 |    -11,009 |
+| c:\xampp\htdocs\public_html\Portal\js\jquery-ui.js                                  | JavaScript |    -13,563 |     -2,075 |     -3,068 |    -18,706 |
+| c:\xampp\htdocs\public_html\Portal\js\jquery.inputmask.bundle.js                    | JavaScript |     -2,644 |         -7 |        -32 |     -2,683 |
+| c:\xampp\htdocs\public_html\Portal\js\jquery.timepicker.js                          | JavaScript |     -1,098 |        -67 |       -218 |     -1,383 |
+| c:\xampp\htdocs\public_html\Portal\js\jquery.validate.min.js                        | JavaScript |         -1 |         -3 |          0 |         -4 |
+| c:\xampp\htdocs\public_html\Portal\js\jscolor.js                                    | JavaScript |     -1,365 |       -162 |       -329 |     -1,856 |
+| c:\xampp\htdocs\public_html\Portal\js\locationpicker.jquery.js                      | JavaScript |       -395 |        -56 |        -13 |       -464 |
+| c:\xampp\htdocs\public_html\Portal\js\pagination.js                                 | JavaScript |        -80 |         -2 |        -19 |       -101 |
+| c:\xampp\htdocs\public_html\Portal\js\phone.js                                      | JavaScript |     -2,103 |         -7 |         -1 |     -2,111 |
+| c:\xampp\htdocs\public_html\Portal\login_leftsidebar.php                            | PHP        |        -12 |          0 |        -10 |        -22 |
+| c:\xampp\htdocs\public_html\Portal\rs-plugin\css\settings.css                       | CSS        |     -1,808 |       -137 |       -427 |     -2,372 |
+| c:\xampp\htdocs\public_html\Portal\rs-plugin\css\style.css                          | CSS        |       -108 |        -21 |        -33 |       -162 |
+| c:\xampp\htdocs\public_html\Portal\rs-plugin\font\revicons.svg                      | XML        |        -54 |          0 |          0 |        -54 |
+| c:\xampp\htdocs\public_html\Portal\rs-plugin\js\jquery.themepunch.revolution.min.js | JavaScript |         -1 |         -6 |         -2 |         -9 |
+| c:\xampp\htdocs\public_html\Portal\rs-plugin\js\jquery.themepunch.tools.min.js      | JavaScript |        -40 |        -73 |        -29 |       -142 |
+| c:\xampp\htdocs\public_html\Portal\slick\config.rb                                  | Ruby       |         -8 |          0 |         -2 |        -10 |
+| c:\xampp\htdocs\public_html\Portal\slick\fonts\slick.svg                            | XML        |        -13 |          0 |         -2 |        -15 |
+| c:\xampp\htdocs\public_html\Portal\slick\slick-theme.css                            | CSS        |       -168 |         -4 |        -31 |       -203 |
+| c:\xampp\htdocs\public_html\Portal\slick\slick-theme.less                           | Less       |       -150 |         -5 |        -14 |       -169 |
+| c:\xampp\htdocs\public_html\Portal\slick\slick-theme.scss                           | SCSS       |       -170 |         -9 |        -16 |       -195 |
+| c:\xampp\htdocs\public_html\Portal\slick\slick.css                                  | CSS        |       -101 |         -2 |        -15 |       -118 |
+| c:\xampp\htdocs\public_html\Portal\slick\slick.js                                   | JavaScript |     -2,019 |        -47 |       -827 |     -2,893 |
+| c:\xampp\htdocs\public_html\Portal\slick\slick.less                                 | Less       |        -85 |         -1 |        -13 |        -99 |
+| c:\xampp\htdocs\public_html\Portal\slick\slick.min.js                               | JavaScript |         -2 |        -16 |          0 |        -18 |
+| c:\xampp\htdocs\public_html\Portal\slick\slick.scss                                 | SCSS       |        -85 |         -1 |        -13 |        -99 |
+| Total                                                                               |            |    -47,098 |     -5,093 |     -8,256 |    -60,447 |
++-------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

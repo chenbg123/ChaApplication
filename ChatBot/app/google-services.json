@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "722987336152",
+    "firebase_url": "https://chat-7c6db-default-rtdb.firebaseio.com",
+    "project_id": "chat-7c6db",
+    "storage_bucket": "chat-7c6db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722987336152:android:16615393f6b9c5501b32ad",
+        "android_client_info": {
+          "package_name": "com.dinosoftlabs.chatbot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722987336152-svnqknvtefif59fcviab6tdrvs83qddk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8BK20H141SC7BwR8KMkXNYiy6Q4PCOzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722987336152-svnqknvtefif59fcviab6tdrvs83qddk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722987336152:android:c080692aac31ab331b32ad",
+        "android_client_info": {
+          "package_name": "com.example.chatapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722987336152-svnqknvtefif59fcviab6tdrvs83qddk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8BK20H141SC7BwR8KMkXNYiy6Q4PCOzA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722987336152-svnqknvtefif59fcviab6tdrvs83qddk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

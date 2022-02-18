@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:clickable="true"
+    android:id="@+id/Chat_F"
+    android:fitsSystemWindows="true"
+    tools:context="com.dinosoftlabs.chatbot.ChatBot_Chat.Chat.Chat_Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/transparent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/Goback"
+                android:layout_width="50dp"
+                android:layout_height="32dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@android:color/transparent"
+                android:paddingBottom="6dp"
+                android:paddingTop="6dp"
+                android:scaleType="fitEnd"
+                android:src="@drawable/ic_cross_btn" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gdex Chatbot asstant"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/chat_layout"
+        android:visibility="visible"
+        android:background="@color/white"
+        android:layout_below="@id/toolbar">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/chatlist"
+            android:layoutAnimation="@anim/layout_animation_from_bottom"
+            android:layout_above="@+id/typeindicator">
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/typeindicator"
+            android:orientation="horizontal"
+            android:layout_marginRight="10dp"
+            android:visibility="gone"
+            android:layout_alignParentRight="true"
+            android:layout_above="@+id/question_layout">
+
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:visibility="visible"
+                android:background="@drawable/ic_type_indicator"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/question_layout"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:background="@color/white"
+            android:layout_above="@+id/writechatlayout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Suggestion"
+                android:textColor="@color/black"/>
+
+            <com.chauthai.overscroll.RecyclerViewBouncy
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/question_recylerview"/>
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            app:cardCornerRadius="22dp"
+            app:cardBackgroundColor="@color/white"
+            android:elevation="0.8dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/writechatlayout"
+            android:layout_alignParentBottom="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/actionbtn">
+
+                    <EditText
+                        android:id="@+id/msgedittext"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:backgroundTint="@android:color/transparent"
+                        android:hint="Type Your Message Here..."
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="5dp"
+                        android:inputType="textNoSuggestions"
+                        android:textColorHint="@color/dark_gray"
+                        android:textColor="@color/black"
+                        android:textSize="14sp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/actionbtn"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true">
+
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:id="@+id/sendbtn"
+                        android:scaleType="fitXY"
+                        android:visibility="gone"
+                        android:src="@drawable/ic_send"
+                        android:background="@android:color/transparent"/>
+
+                    <ImageView
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:id="@+id/query_btn"
+                        android:scaleType="fitXY"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/ic_round_menu_btn"
+                        android:background="@android:color/transparent"/>
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/progress_bar"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
